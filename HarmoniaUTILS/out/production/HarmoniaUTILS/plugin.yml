@@ -1,0 +1,37 @@
+main: harmonia.utils.Main
+name: HarmoniaUTILS
+version: 0
+author: Puedo
+
+commands:
+  hub:
+    aliases: [ragequit,jesuisnul,bye]
+  force-command:
+    aliases: [forcecmd, forcecommand]
+    permission: admin.force_command
+  shutdown:
+    permission: admin.shutdown_srv
+  ss:
+    permission: moderation.ss
+  player-info:
+    aliases: [pinfo, aboutp]
+    permission: admin.player_info
+  sendtoworld:
+    permission: admin.sendtoworld
+  server-bc:
+    permission: admin.bc
+  purchase-broadcast:
+    description: Broadcast purchases
+    permission: tebex.purchase_broadcast
+  rank:
+    permission: admin.setrank
+  minebitcoin:
+    permission: admin.minebitcoin
+  sanction:
+    aliases: [punish]
+    permission: staff.punish_player
+  cbc:
+    permission: admin.custombroadcast
+  murder-mystery:
+    aliases: [mm]
+    permission: admin.mm_test
