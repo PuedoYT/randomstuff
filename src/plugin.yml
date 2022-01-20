@@ -1,0 +1,13 @@
+name: Harmonia
+version: 1.0
+main: alpha.harmonia.Main
+description: None
+commands:
+  help:
+    description: Display the help message
+  kick-user:
+    alias: [kicku, kick, kickplayer, kickp]
+    permissions: mod.kick
+  givecustomitem:
+    permissions: admin.givecustomitem
+  hub:
